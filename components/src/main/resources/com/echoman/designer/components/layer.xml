@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <attr name="Menu\Tools\org-netbeans-modules-options-OptionsWindowAction.shadow\position" intvalue="912"/>
+    <folder name="Actions">
+        <folder name="Other">
+            <file name="com-echoman-designer-components-echocommon-TableValidationsSetupAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.echoman.designer.components.Bundle"/>
+                <attr name="delegate" newvalue="com.echoman.designer.components.echocommon.TableValidationsSetupAction"/>
+                <attr name="displayName" bundlevalue="com.echoman.designer.components.echocommon.Bundle#CTL_TableValidationsSetup"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" stringvalue="false"/>
+            </file>
+            <file name="com-echoman-designer-components-echocommon-UserEnteredValidationsSetupAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.echoman.designer.components.Bundle"/>
+                <attr name="delegate" newvalue="com.echoman.designer.components.echocommon.UserEnteredValidationsSetupAction"/>
+                <attr name="displayName" bundlevalue="com.echoman.designer.components.echocommon.Bundle#CTL_UserEnteredValidationsSetup"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" stringvalue="false"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Tools">
+            <file name="com-echoman-designer-components-echocommon-TableValidationsSetup-separatorBefore.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="1800"/>
+            </file>
+            <file name="com-echoman-designer-components-echocommon-TableValidationsSetup.shadow">
+                <attr name="originalFile" stringvalue="Actions/Other/com-echoman-designer-components-echocommon-TableValidationsSetupAction.instance"/>
+                <attr name="position" intvalue="1850"/>
+            </file>
+            <file name="com-echoman-designer-components-echocommon-UserEnteredValidationsSetup.shadow">
+                <attr name="originalFile" stringvalue="Actions/Other/com-echoman-designer-components-echocommon-UserEnteredValidationsSetupAction.instance"/>
+                <attr name="position" intvalue="1900"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>
