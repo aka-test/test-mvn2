@@ -8,6 +8,9 @@
     </parent>
     <artifactId>components</artifactId>
     <packaging>nbm</packaging>
+    <properties>
+        <rversion>RELEASE90</rversion>
+    </properties>
     <build>
         <plugins>
             <plugin>
@@ -58,22 +61,22 @@
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-openide-util</artifactId>
-            <version>RELEASE82</version>
+            <version>${rversion}</version>
         </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-openide-nodes</artifactId>
-            <version>RELEASE82</version>
+            <version>${rversion}</version>
         </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-openide-windows</artifactId>
-            <version>RELEASE82</version>
+            <version>${rversion}</version>
         </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-openide-explorer</artifactId>
-            <version>RELEASE82</version>
+            <version>${rversion}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
@@ -93,12 +96,12 @@
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-netbeans-modules-sendopts</artifactId>
-            <version>RELEASE82</version>
+            <version>${rversion}</version>
         </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-netbeans-modules-editor</artifactId>
-            <version>RELEASE82</version>
+            <version>${rversion}</version>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
@@ -113,52 +116,52 @@
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-openide-filesystems</artifactId>
-            <version>RELEASE82</version>
+            <version>${rversion}</version>
         </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-openide-util-ui</artifactId>
-            <version>RELEASE82</version>
+            <version>${rversion}</version>
         </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-netbeans-modules-db</artifactId>
-            <version>RELEASE82</version>
+            <version>${rversion}</version>
         </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-netbeans-modules-options-api</artifactId>
-            <version>RELEASE82</version>
+            <version>${rversion}</version>
         </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-netbeans-modules-editor-lib2</artifactId>
-            <version>RELEASE82</version>
+            <version>${rversion}</version>
         </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-openide-loaders</artifactId>
-            <version>RELEASE82</version>
+            <version>${rversion}</version>
         </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-openide-modules</artifactId>
-            <version>RELEASE82</version>
+            <version>${rversion}</version>
         </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-openide-text</artifactId>
-            <version>RELEASE82</version>
+            <version>${rversion}</version>
         </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-openide-util-lookup</artifactId>
-            <version>RELEASE82</version>
+            <version>${rversion}</version>
         </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-openide-awt</artifactId>
-            <version>RELEASE82</version>
+            <version>${rversion}</version>
         </dependency>
     </dependencies>
     <properties>
