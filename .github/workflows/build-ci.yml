@@ -9,7 +9,7 @@ env:
      
 jobs:
   build:
-    runs-on: EV-Runner-linux-x64-4-core-16gb-01 #ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
