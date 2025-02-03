@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.echoman.designer.ui
+OpenIDE-Module-Install: com/echoman/designer/ui/Installer.class
+OpenIDE-Module-Layer: com/echoman/designer/ui/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/echoman/designer/ui/Bundle.properties
+

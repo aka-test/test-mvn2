@@ -1,0 +1,10 @@
+<?xml version='1.0'?>
+<!DOCTYPE driver PUBLIC '-//NetBeans//DTD JDBC Driver 1.1//EN' 'http://www.netbeans.org/dtds/jdbc-driver-1_1.dtd'>
+<driver>
+    <name value='mssql-jdbc'/>
+    <display-name value='mssql-jdbc'/>
+    <class value='com.microsoft.sqlserver.jdbc.SQLServerDriver'/>
+    <urls>
+        <url value='nbinst:///modules/ext/com.echoman.formdesigner.designer.ui/com-microsoft-sqlserver/mssql-jdbc.jar'/>
+    </urls>
+</driver>

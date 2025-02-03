@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <attr name="Menu\File\Separator2.instance\position" intvalue="1400"/>
+    <attr name="Menu\File\Separator3.instance\position" intvalue="1800"/>
+    <attr name="Menu\File\Separator4.instance\position" intvalue="2600"/>
+    <attr name="Menu\File\com-echoman-designer-windesi-ImportAllWinDesiFormsAction-separatorAfter.instance\position" intvalue="2200"/>
+    <attr name="Menu\File\com-echoman-designer-windesi-ImportAllWinDesiFormsAction.shadow\position" intvalue="2100"/>
+    <attr name="Menu\File\com-echoman-designer-windesi-LoadWinDesiFormAction.shadow\position" intvalue="2000"/>
+    <attr name="Menu\File\org-netbeans-core-actions-SystemExit.shadow\position" intvalue="4500"/>
+    <attr name="Menu\File\org-netbeans-modules-print-action-PageSetupAction.shadow\position" intvalue="2300"/>
+    <folder name="Actions">
+        <file name="Debug_hidden"/>
+        <folder name="Edit">
+            <file name="com-echoman-designer-ui-CopyComponentAction.instance">
+                <attr name="delegate" newvalue="com.echoman.designer.ui.CopyComponentAction"/>
+                <attr name="displayName" bundlevalue="com.echoman.designer.ui.Bundle#CTL_CopyComponentAction"/>
+                <attr name="iconBase" stringvalue="com/echoman/designer/ui/copy.png"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+            <file name="com-echoman-designer-ui-CutComponentAction.instance">
+                <attr name="delegate" newvalue="com.echoman.designer.ui.CutComponentAction"/>
+                <attr name="displayName" bundlevalue="com.echoman.designer.ui.Bundle#CTL_CutComponentAction"/>
+                <attr name="iconBase" stringvalue="com/echoman/designer/ui/cut.png"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+            <file name="com-echoman-designer-ui-PasteComponentAction.instance">
+                <attr name="delegate" newvalue="com.echoman.designer.ui.PasteComponentAction"/>
+                <attr name="displayName" bundlevalue="com.echoman.designer.ui.Bundle#CTL_PasteComponentAction"/>
+                <attr name="iconBase" stringvalue="com/echoman/designer/ui/paste.png"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+        </folder>
+        <folder name="File">
+            <file name="com-echoman-designer-ui-EchoDefaultColumns.instance">
+                <attr name="delegate" methodvalue="com.echoman.designer.ui.EchoDefaultColumns"/>
+                <attr name="displayName" bundlevalue="com.echoman.designer.ui.Bundle#CTL_EchoDefaultColumns"/>
+                <attr name="iconBase" stringvalue="com/echoman/designer/ui/icons/flow.gif"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+            <file name="com-echoman-designer-ui-LoadEchoFormDbAction.instance">
+                <attr name="delegate" newvalue="com.echoman.designer.ui.LoadEchoFormDbAction"/>
+                <attr name="displayName" bundlevalue="com.echoman.designer.ui.Bundle#CTL_LoadEchoFormDbAction"/>
+                <attr name="iconBase" stringvalue="com/echoman/designer/ui/icons/loadFromDb.gif"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+            <file name="com-echoman-designer-ui-RecentFormsAction.instance">
+                <attr name="delegate" newvalue="com.echoman.designer.ui.RecentFormsAction"/>
+                <attr name="displayName" bundlevalue="com.echoman.designer.ui.Bundle#CTL_RecentFormsAction"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+            <file name="com-echoman-designer-ui-SaveAsEchoFormToDBAction.instance">
+                <attr name="delegate" newvalue="com.echoman.designer.ui.SaveAsEchoFormToDBAction"/>
+                <attr name="displayName" bundlevalue="com.echoman.designer.ui.Bundle#CTL_SaveAsEchoFormToDBAction"/>
+                <attr name="iconBase" stringvalue="com/echoman/designer/ui/icons/saveasToDb.gif"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+            <file name="com-echoman-designer-ui-SaveEchoFormToDBAction.instance">
+                <attr name="delegate" newvalue="com.echoman.designer.ui.SaveEchoFormToDBAction"/>
+                <attr name="displayName" bundlevalue="com.echoman.designer.ui.Bundle#CTL_SaveEchoFormToDBAction"/>
+                <attr name="iconBase" stringvalue="com/echoman/designer/ui/icons/saveToDb.gif"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+            <file name="com-echoman-designer-ui-ToggleContainers.instance">
+                <attr name="delegate" newvalue="com.echoman.designer.ui.ToggleContainers"/>
+                <attr name="displayName" bundlevalue="com.echoman.designer.ui.Bundle#CTL_ToggleContainers"/>
+                <attr name="iconBase" stringvalue="com/echoman/designer/ui/icons/toggleContainers.gif"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+            <file name="org-netbeans-modules-project-ui-actions-CloseAllProjectsAction.instance_hidden"/>
+            <file name="org-netbeans-modules-project-ui-actions-CloseOtherProjectsAction.instance_hidden"/>
+        </folder>
+        <folder name="Help">
+            <file name="master-help.xml_hidden"/>
+            <file name="com-echoman-designer-ui-DesignerHelpAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.echoman.designer.ui.Bundle"/>
+                <attr name="delegate" newvalue="com.echoman.designer.ui.DesignerHelpAction"/>
+                <attr name="displayName" bundlevalue="com.echoman.designer.ui.Bundle#CTL_DesignerHelp"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+            <file name="org-netbeans-modules-bugzilla-ReportNBIssueAction.instance_hidden"/>
+            <file name="org-netbeans-modules-javahelp-HelpAction.instance_hidden"/>
+        </folder>
+        <file name="JUnitTests_hidden"/>
+        <folder name="Other">
+        </folder>
+        <file name="Project_hidden"/>
+        <file name="Refactoring_hidden"/>
+        <file name="Source_hidden"/>
+        <folder name="System">
+            <file name="com-echoman-designer-ui-ExportAction.instance"/>
+            <file name="com-echoman-designer-ui-LoadEchoFormAction.instance">
+                <attr name="iconBase" stringvalue="com/echoman/designer/ui/form_imp_16.png"/>
+            </file>
+            <file name="com-echoman-designer-ui-NewEchoFormAction.instance"/>
+            <file name="com-echoman-designer-ui-PrintAction.instance"/>
+            <file name="com-echoman-designer-ui-SaveAsEchoFormAction.instance">
+                <attr name="iconBase" stringvalue="com/echoman/designer/ui/form_exp_16.png"/>
+            </file>
+            <file name="com-echoman-designer-ui-SaveEchoFormAction.instance_hidden"/>
+            <file name="com-echoman-designer-ui-ToggleContainers.instance"/>
+            <file name="com-echoman-designer-ui-EchoDefaultColumns.instance"/>
+        </folder>
+        <file name="Team_hidden"/>
+        <folder name="Tools">
+            <file name="org-netbeans-modules-diff-DiffAction.instance_hidden"/>
+            <file name="org-netbeans-modules-diff-PatchAction.instance_hidden"/>
+            <file name="org-netbeans-modules-jumpto-file-FileSearchAction.instance_hidden"/>
+        </folder>
+        <file name="UnitTests_hidden"/>
+        <folder name="View">
+            <file name="com-echoman-designer-ui-DebugLogAction.instance" url="">
+                <attr name="name" stringvalue="com-echoman-designer-ui-DebugLogAction"/>
+ <!--           <attr name="SystemFileSystem.localizingBundle" stringvalue="com.echoman.designer.ui.Bundle"/>
+                <attr name="delegate" newvalue="com.echoman.designer.ui.DebugLogAction"/>
+                <attr name="displayName" bundlevalue="com.echoman.designer.ui.Bundle#CTL_DebugLogAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" boolvalue="false"/> -->
+            </file>
+            <file name="com-echoman-designer-ui-HTMLPreviewAction.instance"/>
+            <file name="com-echoman-designer-ui-LivePreviewWindowAction.instance">
+<!--                <attr name="SystemFileSystem.localizingBundle" stringvalue="com.echoman.designer.ui.Bundle"/>
+                <attr name="delegate" newvalue="com.echoman.designer.ui.LivePreviewWindowAction"/>
+                <attr name="displayName" bundlevalue="com.echoman.designer.ui.Bundle#CTL_LivePreviewWindow"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>                
+                <attr name="iconBase" stringvalue="com/echoman/designer/ui/icons/livepreview.gif"/>
+                <attr name="noIconInMenu" boolvalue="false"/> -->
+            </file>
+            <file name="org-netbeans-core-actions-LogAction.instance_hidden"/>
+            <file name="org-openide-actions-CustomizeAction.instance_hidden"/>
+        </folder>
+        <folder name="Window"/>
+    </folder>
+    <folder name="Databases">
+        <folder name="ActionProviders">
+            <file name="MySQLActionProvider.instance_hidden"/>
+        </folder>
+        <folder name="Explorer">
+            <folder name="Connection">
+                <folder name="Actions">
+                    <file name="org-openide-actions-DeleteAction.instance" url="org-openide-actions-DeleteAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-DeleteAction.instance"/>
+                        <attr name="position" intvalue="450"/>
+                    </file>
+                            <file name="org-openide-actions-DeleteAction.shadow_hidden"/>
+                </folder>
+            </folder>
+            <folder name="Table">
+                <folder name="Actions">
+                    <file name="Separator1.instance_hidden"/>
+                    <file name="org-netbeans-modules-db-explorer-action-ExecuteCommandAction.instance_hidden"/>
+                    <file name="org-netbeans-modules-db-explorer-action-ViewDataAction.instance_hidden"/>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="JDBCDrivers">
+            <file name="JDBCODBC.xml_hidden"/>
+            <file name="mysql.xml_hidden"/>
+            <file name="net_sourceforge_jtds_jdbc_Driver.xml" url="net_sourceforge_jtds_jdbc_Driver.xml_hidden"/>
+            <file name="com_microsoft_sqlserver_jdbc_SQLServerDriver.xml" url="com_microsoft_sqlserver_jdbc_SQLServerDriver.xml"/>
+            <file name="oracle_oci.xml_hidden"/>
+            <file name="oracle_thin.xml_hidden"/>
+            <file name="postgresql.xml_hidden"/>
+        </folder>
+        <folder name="MySQL">
+            <file name="Installations_hidden"/>
+            <file name="SampleProviders_hidden"/>
+        </folder>
+        <folder name="Runtimes">
+            <file name="DerbyRuntime.instance_hidden"/>
+            <file name="org-netbeans-modules-j2ee-sun-ide-j2ee-db-RegisterPointbase.instance_hidden"/>
+        </folder>
+    </folder>
+    <folder name="Editors">
+        <file name="Keybindings_hidden"/>
+    </folder>
+    <file name="HTTPServer_DUMMY_hidden"/>
+    <folder name="JSPPalette"/>
+    <folder name="Keymaps">
+        <file name="Eclipse_hidden"/>
+        <file name="Emacs_hidden"/>
+        <file name="Idea_hidden"/>
+        <folder name="NetBeans">
+            <file name="D-2.shadow_hidden"/>
+            <file name="D-BACK_QUOTE.shadow_hidden"/>
+            <file name="D-F5.shadow_hidden"/>
+            <file name="D-F6.shadow_hidden"/>
+            <file name="D-F7.shadow_hidden"/>
+            <file name="D-F8.shadow_hidden"/>
+            <file name="DS-F5.shadow_hidden"/>
+            <file name="DS-F6.shadow_hidden"/>
+            <file name="DS-F7.shadow_hidden"/>
+            <file name="DS-F8.shadow_hidden"/>
+            <file name="DS-O.shadow_hidden"/>
+            <file name="DS-U.shadow_hidden"/>
+            <file name="F1.shadow">
+                <attr name="originalFile" stringvalue="Actions/Help/com-echoman-designer-ui-DesignerHelpAction.instance"/>
+            </file>
+            <file name="F11.shadow_hidden"/>
+            <file name="F4.shadow_hidden"/>
+            <file name="F5.shadow_hidden"/>
+            <file name="F6.shadow_hidden"/>
+            <file name="F7.shadow_hidden"/>
+            <file name="F8.shadow_hidden"/>
+            <file name="F9.shadow_hidden"/>
+            <file name="FIND.shadow_hidden"/>
+            <file name="O-Enter.shadow_hidden"/>
+            <file name="O-F6.shadow_hidden"/>
+            <file name="O-F7.shadow_hidden"/>
+            <file name="O-PAGE_DOWN.shadow_hidden"/>
+            <file name="O-PAGE_UP.shadow_hidden"/>
+            <file name="OS-O.shadow_hidden"/>
+            <file name="S-F11.shadow_hidden"/>
+            <file name="S-F6.shadow_hidden"/>
+            <file name="S-F7.shadow_hidden"/>
+        </folder>
+        <file name="NetBeans55_hidden"/>
+    </folder>
+    <folder name="Loaders">
+        <folder name="folder">
+            <folder name="any">
+                <folder name="Actions">
+                    <file name="RefactoringAll.shadow_hidden"/>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="text">
+            <folder name="html">
+                <folder name="Actions">
+                    <file name="RefactoringAll.shadow_hidden"/>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <file name="BuildProject_hidden"/>
+        <folder name="Edit">
+            <file name="Separator1.instance_hidden"/>
+            <file name="Separator2.instance_hidden"/>
+            <file name="SeparatorAfterFindPrevious.instance_hidden"/>
+            <file name="SeparatorAfterProjectsSearch.instance_hidden"/>
+            <file name="WhereUsedAction.shadow_hidden"/>
+            <file name="clipboard-history.shadow_hidden"/>
+            <file name="clipboard-lines.shadow_hidden"/>
+            <file name="com-echoman-designer-ui-CopyComponentAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/com-echoman-designer-ui-CopyComponentAction.instance"/>
+                <attr name="position" intvalue="405"/>
+            </file>
+            <file name="com-echoman-designer-ui-CutComponentAction-separatorBefore.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="255"/>
+            </file>
+            <file name="com-echoman-designer-ui-CutComponentAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/com-echoman-designer-ui-CutComponentAction.instance"/>
+                <attr name="position" intvalue="305"/>
+            </file>
+            <file name="com-echoman-designer-ui-PasteComponentAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/com-echoman-designer-ui-PasteComponentAction.instance"/>
+                <attr name="position" intvalue="505"/>
+            </file>
+            <file name="org-netbeans-modules-editor-MainMenuAction$FindNextAction.instance_hidden"/>
+            <file name="org-netbeans-modules-editor-MainMenuAction$FindPreviousAction.instance_hidden"/>
+            <file name="org-netbeans-modules-editor-MainMenuAction$FindSelectionAction.instance_hidden"/>
+            <file name="org-netbeans-modules-editor-MainMenuAction$PasteFormattedAction.instance_hidden"/>
+            <file name="org-netbeans-modules-editor-MainMenuAction$SelectAllAction.instance_hidden"/>
+            <file name="org-netbeans-modules-editor-MainMenuAction$SelectIdentifierAction.instance_hidden"/>
+            <file name="org-netbeans-modules-editor-MainMenuAction$StartMacroRecordingAction.instance_hidden"/>
+            <file name="org-netbeans-modules-editor-MainMenuAction$StopMacroRecordingAction.instance_hidden"/>
+            <file name="org-netbeans-modules-search-FindInFilesAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-search-ReplaceInFilesAction.shadow_hidden"/>
+            <file name="org-openide-actions-CopyAction.shadow_hidden"/>
+            <file name="org-openide-actions-CutAction.shadow_hidden"/>
+            <file name="org-openide-actions-DeleteAction.shadow_hidden"/>
+            <file name="org-openide-actions-FindAction.shadow_hidden"/>
+            <file name="org-openide-actions-PasteAction.shadow_hidden"/>
+            <file name="org-openide-actions-ReplaceAction.shadow_hidden"/>
+            <file name="sep-before-reposearch.instance_hidden"/>
+        </folder>
+        <folder name="File">
+            <file name="Export_hidden"/>
+            <file name="Import_hidden">
+                <attr name="position" intvalue="100"/>
+            </file>
+            <file name="ImporterSeparator1.instance_hidden">
+                <attr name="position" intvalue="200"/>
+            </file>
+            <file name="Separator2.instance_hidden"/>
+            <file name="Separator4.instance_hidden"/>
+            <file name="SeparatorNew.instance_hidden">
+                <attr name="position" intvalue="300"/>
+            </file>
+            <file name="SeparatorOpen.instance_hidden">
+                <attr name="position" intvalue="400"/>
+            </file>
+            <file name="import-export-sep.instance_hidden"/>
+            <file name="com-echoman-designer-ui-EchoDefaultColumns.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/com-echoman-designer-ui-EchoDefaultColumns.instance"/>
+                <attr name="position" intvalue="2475"/>
+            </file>
+            <file name="com-echoman-designer-ui-ExportAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/com-echoman-designer-ui-ExportAction.instance"/>
+                <attr name="position" intvalue="1700"/>
+            </file>
+            <file name="com-echoman-designer-ui-LinkForms-separatorAfter.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="2400"/>
+            </file>
+            <file name="com-echoman-designer-ui-LoadEchoFormAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/com-echoman-designer-ui-LoadEchoFormAction.instance"/>
+                <attr name="position" intvalue="1100"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+            </file>
+            <file name="com-echoman-designer-ui-LoadEchoFormDb.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/com-echoman-designer-ui-LoadEchoFormDbAction.instance"/>
+                <attr name="position" intvalue="700"/>
+            </file>
+            <file name="com-echoman-designer-ui-NewEchoFormAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/com-echoman-designer-ui-NewEchoFormAction.instance"/>
+                <attr name="position" intvalue="500"/>
+            </file>
+            <file name="com-echoman-designer-ui-PrintAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/com-echoman-designer-ui-PrintAction.instance"/>
+                <attr name="position" intvalue="1600"/>
+            </file>
+            <file name="com-echoman-designer-ui-RecentFormsAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/com-echoman-designer-ui-RecentFormsAction.instance"/>
+                <attr name="position" intvalue="2528"/>
+            </file>
+            <file name="com-echoman-designer-ui-SaveAsEchoFormAction-separatorAfter.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="1000"/>
+            </file>
+            <file name="com-echoman-designer-ui-SaveAsEchoFormAction-separatorAfter_1.instance" url="com-echoman-designer-ui-SaveAsEchoFormAction-separatorAfter_1.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="600"/>
+            </file>
+            <file name="com-echoman-designer-ui-SaveAsEchoFormAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/com-echoman-designer-ui-SaveAsEchoFormAction.instance"/>
+                <attr name="position" intvalue="1200"/>
+            </file>
+            <file name="com-echoman-designer-ui-SaveAsEchoFormToDBAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/com-echoman-designer-ui-SaveAsEchoFormToDBAction.instance"/>
+                <attr name="position" intvalue="900"/>
+            </file>
+            <file name="com-echoman-designer-ui-SaveEchoFormAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/com-echoman-designer-ui-SaveEchoFormAction.instance"/>
+                <attr name="position" intvalue="1300"/>
+            </file>
+            <file name="com-echoman-designer-ui-SaveEchoFormToDBAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/com-echoman-designer-ui-SaveEchoFormToDBAction.instance"/>
+                <attr name="position" intvalue="800"/>
+            </file>
+            <file name="com-echoman-designer-ui-ToggleContainers-separatorAfter.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="2462"/>
+            </file>
+            <file name="com-echoman-designer-ui-ToggleContainers-separatorAfter_1.instance" url="com-echoman-designer-ui-ToggleContainers-separatorAfter_1.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="2793"/>
+            </file>
+            <file name="com-echoman-designer-ui-ToggleContainers.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/com-echoman-designer-ui-ToggleContainers.instance"/>
+                <attr name="position" intvalue="2450"/>
+            </file>
+            <file name="com-echoman-designer-ui-separatorAfter.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="1500"/>
+            </file>
+            <file name="com-echoman-designer-windesi-ImportAllWinDesiFormsAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-editor-ExportHtmlAction.instance_hidden">
+                <attr name="position" intvalue="3200"/>
+            </file>
+            <file name="org-netbeans-modules-editor-ExportHtmlAction.shadow_hidden">
+                <attr name="position" intvalue="3300"/>
+            </file>
+            <file name="org-netbeans-modules-kenai-ui-OpenKenaiProjectAction.shadow_hidden">
+                <attr name="position" intvalue="3400"/>
+            </file>
+            <file name="org-netbeans-modules-openfile-OpenFileAction.instance_hidden">
+                <attr name="position" intvalue="3500"/>
+            </file>
+            <file name="org-netbeans-modules-openfile-OpenFileAction.shadow_hidden">
+                <attr name="position" intvalue="3600"/>
+            </file>
+            <file name="org-netbeans-modules-openfile-RecentFileAction.instance_hidden">
+                <attr name="position" intvalue="3700"/>
+            </file>
+            <file name="org-netbeans-modules-openfile-RecentFileAction.shadow_hidden">
+                <attr name="position" intvalue="3800"/>
+            </file>
+            <file name="org-netbeans-modules-print-action-PageSetupAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-print-action-PrintAction.shadow_hidden">
+                <attr name="position" intvalue="3900"/>
+            </file>
+            <file name="org-netbeans-modules-project-ui-CloseProject.shadow_hidden">
+                <attr name="position" intvalue="4000"/>
+            </file>
+            <file name="org-netbeans-modules-project-ui-CustomizeProject.shadow_hidden">
+                <attr name="position" intvalue="4100"/>
+            </file>
+            <file name="org-netbeans-modules-project-ui-NewFile.shadow_hidden">
+                <attr name="position" intvalue="4200"/>
+            </file>
+            <file name="org-netbeans-modules-project-ui-NewProject.shadow_hidden">
+                <attr name="position" intvalue="4300"/>
+            </file>
+            <file name="org-netbeans-modules-project-ui-OpenProject.shadow_hidden">
+                <attr name="position" intvalue="4400"/>
+            </file>
+            <file name="org-netbeans-modules-project-ui-RecentProjects.shadow_hidden">
+                <attr name="position" intvalue="4500"/>
+            </file>
+            <file name="org-netbeans-modules-project-ui-SetMainProject.shadow_hidden">
+                <attr name="position" intvalue="4600"/>
+            </file>
+            <file name="org-netbeans-modules-project-ui-groups-GroupsMenu.shadow_hidden">
+                <attr name="position" intvalue="4700"/>
+            </file>
+            <file name="org-openide-actions-PrintAction.instance_hidden">
+                <attr name="position" intvalue="3900"/>
+            </file>
+            <file name="org-openide-actions-SaveAction.instance_hidden">
+                <attr name="position" intvalue="4000"/>
+            </file>
+            <file name="org-openide-actions-SaveAction.shadow_hidden">
+                <attr name="position" intvalue="4100"/>
+            </file>
+            <file name="org-openide-actions-SaveAllAction.instance_hidden">
+                <attr name="position" intvalue="4200"/>
+            </file>
+            <file name="org-openide-actions-SaveAllAction.shadow_hidden">
+                <attr name="position" intvalue="4300"/>
+            </file>
+            <file name="org-openide-actions-SaveAsAction.shadow_hidden">
+                <attr name="position" intvalue="4400"/>
+            </file>
+        </folder>
+        <file name="GoTo_hidden"/>
+        <folder name="Help">
+            <file name="SeparatorAfterJavadoc.instance_hidden"/>
+            <file name="netbeans-kb.url_hidden"/>
+            <file name="com-echoman-designer-ui-DesignerHelp.shadow">
+                <attr name="originalFile" stringvalue="Actions/Help/com-echoman-designer-ui-DesignerHelpAction.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+            <file name="org-netbeans-modules-autoupdate-ui-actions-CheckForUpdatesAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-bugzilla-ReportNBIssueAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-javadoc-search-IndexOverviewAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-javadoc-search-SearchDocAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-registration-RegisterAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-usersguide-master.xml_hidden"/>
+            <file name="org-netbeans-modules-welcome-ShowWelcomeAction.shadow_hidden"/>
+            <file name="shortcuts.xml_hidden"/>
+        </folder>
+        <file name="Profile_hidden"/>
+        <file name="Refactoring_hidden"/>
+        <file name="RunProject_hidden"/>
+        <file name="Source_hidden"/>
+        <file name="Spacer.instance_hidden"/>
+        <folder name="Tools">
+            <file name="CloudManagerAction3.shadow_hidden"/>
+            <file name="I18N_hidden"/>
+            <file name="JavaPlatformsCustomizerAction.shadow_hidden"/>
+            <file name="LibrariesCustomizerAction.instance_hidden"/>
+            <file name="LibrariesCustomizerAction.shadow_hidden"/>
+            <file name="PaletteManager_hidden"/>
+            <file name="Separator1.instance_hidden"/>
+            <file name="Separator2.instance_hidden"/>
+            <file name="Separator3.instance_hidden"/>
+            <file name="ServerManagerAction3.shadow_hidden"/>
+            <file name="VariablesCustomizerAction.instance_hidden"/>
+            <file name="VariablesCustomizerAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-autoupdate-ui-actions-PluginManagerAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-favorites-templates-TemplatesAction.instance_hidden"/>
+            <file name="org-netbeans-modules-favorites-templates-TemplatesAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-options-OptionsWindowAction-separatorBefore.instance_hidden"/>
+            <file name="org-netbeans-modules-templates-actions-TemplatesAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-xml-catalog-CatalogAction.instance_hidden"/>
+            <file name="org-netbeans-modules-xml-catalog-CatalogAction.shadow_hidden"/>
+            <file name="org-openide-actions-ToolsAction.instance_hidden"/>
+            <file name="org-openide-actions-ToolsAction.shadow_hidden"/>
+        </folder>
+        <file name="Versioning_hidden"/>
+        <folder name="View">
+            <file name="File_hidden"/>
+            <file name="Separator1.instance_hidden"/>
+            <file name="ShowEditorOnlyAction.shadow_hidden"/>
+            <file name="com-echoman-designer-ui-DebugLogAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/View/com-echoman-designer-ui-DebugLogAction.instance"/>
+                <attr name="position" intvalue="800"/>
+            </file>
+            <file name="com-echoman-designer-ui-LivePreviewWindow.shadow">
+                <attr name="originalFile" stringvalue="Actions/View/com-echoman-designer-ui-LivePreviewWindowAction.instance"/>
+                <attr name="position" intvalue="300"/>
+            </file>
+            <file name="org-netbeans-core-actions-HTMLViewAction.instance_hidden"/>
+            <file name="Separator3.instance_hidden"/>
+            <file name="ToggleFullScreenAction.shadow_hidden"/>
+            <file name="com-echoman-designer-ui-HTMLPreviewAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/View/com-echoman-designer-ui-HTMLPreviewAction.instance"/>
+                <attr name="position" intvalue="200"/>
+            </file>
+            <file name="org-netbeans-core-actions-HTMLViewAction.shadow_hidden"/>
+            <file name="org-netbeans-core-actions-LogAction.shadow_hidden"/>
+            <file name="org-netbeans-core-multiview-EditorsAction.instance_hidden"/>
+            <file name="org-netbeans-core-multiview-SplitAction.instance_hidden"/>
+            <file name="org-netbeans-core-windows-actions-ToolbarsListAction.instance_hidden"/>
+            <file name="org-netbeans-core-windows-actions-ToolbarsListAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-editor-MainMenuAction$ShowLineNumbersAction.instance_hidden"/>
+            <file name="org-netbeans-modules-editor-MainMenuAction$ShowToolBarAction.instance_hidden"/>
+            <file name="org-netbeans-modules-editor-NbCodeFoldingAction.instance_hidden"/>
+            <file name="org-netbeans-modules-project-ui-SyncEditorWithViewsAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-versioning-ShowTextAnnotationsAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-versioning-core-ShowTextAnnotationsAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-versioning-diff-ShowDiffSidebarAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-versioning-ui-diff-ShowDiffSidebarAction.shadow_hidden"/>
+            <file name="toggle-breadcrumbs-view.shadow_hidden"/>
+            <file name="toggle-line-numbers.shadow_hidden"/>
+            <file name="toggle-lines-view.shadow_hidden"/>
+            <file name="toggle-non-printable-characters.shadow_hidden"/>
+            <file name="toggle-toolbar.shadow_hidden"/>
+        </folder>
+        <folder name="Window">
+            <file name="CloneDocumentAction.shadow_hidden"/>
+            <file name="CloseAllButThisAction.shadow_hidden"/>
+            <file name="CloseAllDocumentsAction.shadow_hidden"/>
+            <file name="ConfigureWindow_hidden"/>
+            <file name="Debug_hidden"/>
+            <file name="DocumentsAction.shadow_hidden"/>
+            <file name="GroupsMenuAction.shadow_hidden"/>
+            <file name="KenaiAction.shadow_hidden"/>
+            <file name="Navigator_hidden"/>
+            <file name="Other_hidden"/>
+            <file name="Output_hidden"/>
+            <file name="Profile_hidden"/>
+            <file name="ProgressListAction.shadow_hidden"/>
+            <file name="Separator4.instance_hidden"/>
+            <file name="Separator5.instance_hidden"/>
+            <file name="SwitchToRecentDocumentAction.shadow_hidden"/>
+            <folder name="Tools">
+                <file name="GsfTestRunnerResultWindowOpenAction.shadow_hidden"/>
+                <file name="JavadocAction.shadow_hidden"/>
+                <file name="ProgressListAction.shadow_hidden"/>
+                <file name="ReporterResultAction.shadow_hidden"/>
+                <file name="Separator1.instance_hidden"/>
+                <file name="org-netbeans-modules-dlight-terminal-action-ShowTerminal.shadow_hidden"/>
+                <file name="org-netbeans-modules-editor-bookmarks-ui-BookmarksViewOpenAction.shadow_hidden"/>
+                <file name="org-netbeans-modules-notifications-NotificationCenterTopComponent.shadow_hidden"/>
+            </folder>
+            <file name="Versioning_hidden"/>
+            <file name="ViewFavoritesTabAction.shadow_hidden"/>
+            <file name="Web_hidden"/>
+            <file name="org-netbeans-core-io-ui-IOWindowAction.shadow_hidden"/>
+            <file name="org-netbeans-core-windows-actions-ResetWindowsAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-favorites-View.shadow_hidden"/>
+            <file name="org-netbeans-modules-kenai-collab-chat-ChatAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-navigator-ShowNavigatorAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-project-ui-logical-tab-action.shadow_hidden"/>
+            <file name="org-netbeans-modules-project-ui-physical-tab-action.shadow_hidden"/>
+            <file name="org-netbeans-modules-tasklist-ui-TaskListAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-tasks-ui-DashboardTopComponent.shadow_hidden"/>
+        </folder>
+        <file name="org-netbeans-modules-quicksearch-QuickSearchAction.shadow_hidden"/>
+    </folder>
+    <folder name="OptionsDialog">
+        <file name="Advanced.instance_hidden"/>
+        <file name="Advanced_hidden"/>
+        <file name="Appearance.instance_hidden"/>
+        <file name="Editor.instance_hidden"/>
+        <file name="FontsAndColors.instance_hidden"/>
+        <file name="Java.instance_hidden"/>
+        <file name="JavaOptions.instance_hidden"/>
+        <file name="Keymaps.instance_hidden"/>
+        <file name="PreviewExamples_hidden"/>
+        <file name="Team.instance_hidden"/>
+        <file name="com-echoman-designer-databasemanager-DesignerOptionsCategory.instance"/>
+        <file name="com-echoman-designer-components-echoform-MiscOptionsCategory.instance"/>
+    </folder>
+    <folder name="OptionsExport">
+        <file name="Advanced_hidden"/>
+        <file name="Editor_hidden"/>
+        <file name="FontsAndColors_hidden"/>
+        <file name="Formatting_hidden"/>
+        <file name="Java_hidden"/>
+        <file name="Keymaps_hidden"/>
+        <file name="Keyring_hidden"/>
+        <file name="Templates_hidden"/>
+    </folder>
+    <file name="Plugins_hidden"/>
+    <file name="ProjectsTabActions_hidden"/>
+    <!--<file name="QuickSearch_hidden"/>-->
+    <!--
+    <folder name="Services">
+        <folder name="JavaHelp">
+            <file name="designer-helpset.xml" url="designer-helpset.xml">
+                <attr name="position" intvalue="3001"/>
+            </file>
+        </folder>
+    </folder>
+    -->
+    <folder name="Shortcuts">
+        <file name="C-R.shadow_hidden"/>
+        <file name="D-1.shadow_hidden"/>
+        <file name="D-2.shadow_hidden"/>
+        <file name="D-F11.shadow_hidden"/>
+        <file name="D-F6.shadow_hidden"/>
+        <file name="D-F7.shadow_hidden"/>
+        <file name="D-F9.shadow_hidden"/>
+        <file name="D-M.shadow_hidden"/>
+        <file name="D-N.shadow_hidden"/>
+        <file name="DA-DOWN.shadow_hidden"/>
+        <file name="DA-T.shadow_hidden"/>
+        <file name="DA-UP.shadow_hidden"/>
+        <file name="DS-F5.shadow_hidden"/>
+        <file name="DS-F6.shadow_hidden"/>
+        <file name="DS-F7.shadow_hidden"/>
+        <file name="DS-F8.shadow_hidden"/>
+        <file name="DS-N.shadow_hidden"/>
+        <file name="DS-O.shadow_hidden"/>
+        <file name="DS-U.shadow_hidden"/>
+        <file name="F1.shadow">            
+            <attr name="originalFile" stringvalue="Actions/Help/com-echoman-designer-ui-DesignerHelpAction.instance"/>            
+        </file>
+        <file name="F11.shadow_hidden"/>
+        <file name="F9.shadow_hidden"/>
+        <file name="O-DELETE.shadow_hidden"/>
+        <file name="O-Enter.shadow_hidden"/>
+        <file name="O-F6.shadow_hidden"/>
+        <file name="OS-P.shadow_hidden"/>
+        <file name="OS-X.shadow_hidden"/>
+        <file name="S-F11.shadow_hidden"/>
+        <file name="S-F5.shadow_hidden"/>
+        <file name="S-F6.shadow_hidden"/>
+        <file name="S-F7.shadow_hidden"/>
+        <file name="S-F8.shadow_hidden"/>
+        <file name="SC-X.shadow">
+            <attr name="originalFile" stringvalue="Actions/Edit/com-echoman-designer-ui-CutComponentAction.instance"/>
+        </file>
+        <file name="SC-C.shadow">
+            <attr name="originalFile" stringvalue="Actions/Edit/com-echoman-designer-ui-CopyComponentAction.instance"/>
+        </file>
+        <file name="SC-V.shadow">
+            <attr name="originalFile" stringvalue="Actions/Edit/com-echoman-designer-ui-PasteComponentAction.instance"/>
+        </file>
+        <file name="SO-T.shadow_hidden"/>
+    </folder>
+<!--    <file name="Templates_hidden"/>-->
+    <folder name="Toolbars">
+        <file name="Build_hidden"/>
+        <file name="Clipboard_hidden"/>
+        <file name="Debug_hidden"/>
+        <file name="Debugging.xml_hidden"/>
+        <folder name="File">
+            <file name="com-echoman-designer-ui-ExportAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/com-echoman-designer-ui-ExportAction.instance"/>
+                <attr name="position" intvalue="500"/>
+            </file>
+            <file name="com-echoman-designer-ui-HTMLPreviewAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/View/com-echoman-designer-ui-HTMLPreviewAction.instance"/>
+                <attr name="position" intvalue="700"/>
+            </file>
+            <file name="com-echoman-designer-ui-LoadEchoFormDb.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/com-echoman-designer-ui-LoadEchoFormDbAction.instance"/>
+                <attr name="position" intvalue="200"/>
+            </file>
+            <file name="com-echoman-designer-ui-SaveAsEchoFormToDBAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/com-echoman-designer-ui-SaveAsEchoFormToDBAction.instance"/>
+                <attr name="position" intvalue="300"/>
+            </file>
+            <file name="com-echoman-designer-ui-SaveEchoFormToDBAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/com-echoman-designer-ui-SaveEchoFormToDBAction.instance"/>
+                <attr name="position" intvalue="250"/>
+            </file>
+            <file name="com-echoman-designer-ui-ToggleContainers.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/com-echoman-designer-ui-ToggleContainers.instance"/>
+                <attr name="position" intvalue="1000"/>
+            </file>
+            <file name="com-echoman-designer-ui-EchoDefaultColumns.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/com-echoman-designer-ui-EchoDefaultColumns.instance"/>
+                <attr name="position" intvalue="1100"/>
+            </file>
+            <file name="com-echoman-designer-ui-LivePreviewWindow.shadow">
+                <attr name="originalFile" stringvalue="Actions/View/com-echoman-designer-ui-LivePreviewWindowAction.instance"/>
+                <attr name="position" intvalue="800"/>
+            </file>
+            <file name="com-echoman-designer-ui-NewEchoFormAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/com-echoman-designer-ui-NewEchoFormAction.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+            <file name="com-echoman-designer-ui-LoadEchoFormAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/com-echoman-designer-ui-LoadEchoFormAction.instance"/>
+                <attr name="position" intvalue="325"/>
+            </file>
+            <file name="com-echoman-designer-ui-PrintAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/com-echoman-designer-ui-PrintAction.instance"/>
+                <attr name="position" intvalue="400"/>
+            </file>
+            <file name="com-echoman-designer-ui-SaveAsEchoFormAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/com-echoman-designer-ui-SaveAsEchoFormAction.instance"/>
+                <attr name="position" intvalue="350"/>
+            </file>
+            <file name="com-echoman-designer-ui-SaveEchoFormAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/com-echoman-designer-ui-SaveEchoFormAction.instance"/>
+                <attr name="position" intvalue="375"/>
+            </file>
+            <file name="org-netbeans-modules-project-ui-NewFile.shadow_hidden"/>
+            <file name="org-netbeans-modules-project-ui-NewProject.shadow_hidden"/>
+            <file name="org-netbeans-modules-project-ui-OpenProject.shadow_hidden"/>
+            <file name="org-openide-actions-SaveAllAction.instance_hidden"/>
+            <file name="org-openide-actions-SaveAllAction.shadow_hidden"/>
+        </folder>
+            <!--<file name="QuickSearch_hidden"/>-->
+        <file name="Memory_hidden"/>
+        <file name="Standard.xml_hidden"/>
+        <file name="UndoRedo_hidden"/>
+    </folder>
+    <folder name="UI">
+        <folder name="Runtime">
+            <file name="org-netbeans-modules-bugtracking-bridge-nodes-BugtrackingRootNode-getDefault.instance_hidden"/>
+            <file name="org-netbeans-modules-bugtracking-ui-nodes-BugtrackingRootNode-getDefault.instance_hidden"/>
+            <file name="org-netbeans-modules-hudson-ui-nodes-HudsonRootNode-getDefault.instance_hidden"/>
+            <file name="org-netbeans-modules-hudson-ui-nodes-HudsonRootNode.instance_hidden"/>
+            <file name="org-netbeans-modules-kenai-ui-nodes-KenaiRootNode-getDefault.instance_hidden"/>
+            <file name="org-netbeans-modules-maven-repository-M2RepositoryBrowser.instance_hidden"/>
+            <file name="org-netbeans-modules-server-ui-node-RootNode-getCloudInstance.instance_hidden"/>
+            <file name="org-netbeans-modules-server-ui-node-RootNode-getInstance.instance_hidden"/>
+            <file name="org-netbeans-modules-websvc-saas-ui-nodes-SaasServicesRootNode.instance_hidden"/>
+        </folder>
+        <folder name="Services">
+            <file name="Editing_hidden"/>
+                <file name="IDEConfiguration_hidden"/>
+                <file name="Testing_hidden"/>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="ASTBrowserTopComponent.settings_hidden"/>
+            <file name="EchoDesignerTopComponent.settings" url="EchoDesignerTopComponentSettings.xml"/>
+            <file name="TokensBrowserTopComponent.settings_hidden"/>
+            <file name="find-usages.settings_hidden"/>
+            <file name="navigatorTC.settings_hidden"/>
+            <file name="projectTabLogical_tc.settings_hidden"/>
+            <file name="projectTab_tc.settings_hidden"/>
+            <file name="refactoring-preview.settings_hidden"/>
+        </folder>
+        <folder name="Modes">
+
+            <file name="commonpalette.wsmode" url="commonpaletteWsmode.xml"/>
+            <folder name="editor">
+                <file name="EchoDesignerTopComponent.wstcref" url="EchoDesignerTopComponentWstcref.xml"/>
+            </folder>
+
+            <folder name="explorer">
+                <file name="ASTBrowserTopComponent.wstcref_hidden"/>
+                <file name="TokensBrowserTopComponent.wstcref_hidden"/>
+                <file name="projectTabLogical_tc.wstcref_hidden"/>
+                <file name="projectTab_tc.wstcref_hidden"/>
+                <file name="services.wstcref_hidden"/>
+            </folder>
+
+            <folder name="leftSlidingSide">
+                <file name="services.wstcref" url="servicesWstcref_1.xml"/>
+            </folder>
+            <folder name="properties">
+                <file name="properties.wstcref" url="propertiesWstcref.xml"/>
+            </folder>
+            <file name="properties.wsmode" url="propertiesWsmode.xml"/>
+        </folder>
+        <file name="WindowManager.wswmgr" url="WindowManager.wswmgr"/>
+    </folder>
+</filesystem>
