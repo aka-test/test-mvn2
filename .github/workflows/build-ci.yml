@@ -2,7 +2,7 @@ name: Maven Build and Publish
 on:
   push:
     branches:
-      - "**"
+      - "1**"
 env:
      RNUM: ${{ github.run_number }}
      BBRNUM: 1
