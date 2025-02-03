@@ -85,6 +85,8 @@
 
     <modules>
         <module>branding</module>
+	<module>components</module>
+	<module>ui</module> 
     </modules>
 
 </project>
