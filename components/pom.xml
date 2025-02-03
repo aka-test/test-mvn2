@@ -8,9 +8,6 @@
     </parent>
     <artifactId>components</artifactId>
     <packaging>nbm</packaging>
-    <properties>
-        <rversion>RELEASE90</rversion>
-    </properties>
     <build>
         <plugins>
             <plugin>
@@ -166,6 +163,7 @@
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <rversion>RELEASE90</rversion>
     </properties>
     <name>components</name>
 </project>
