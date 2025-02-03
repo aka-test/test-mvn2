@@ -85,14 +85,6 @@
 
     <modules>
         <module>branding</module>
-        <module>publish</module>
-        <module>components</module>
-        <module>inspector</module>
-        <module>common-utils-wrapper</module>
-        <module>palette</module>
-        <module>windesi</module>
-        <module>ui</module>
-        <module>application</module>
     </modules>
 
 </project>
