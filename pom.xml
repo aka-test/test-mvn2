@@ -84,9 +84,7 @@
     </build>
 
     <modules>
-        <module>JDesiWebApp</module>
         <module>branding</module>
-        <module>database-manager</module>
         <module>publish</module>
         <module>components</module>
         <module>inspector</module>
