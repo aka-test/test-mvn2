@@ -1,0 +1,95 @@
+name: Maven Build and Publish
+on:
+  push:
+    branches:
+      - "**"
+env:
+     RNUM: ${{ github.run_number }}
+     BBRNUM: 1
+     
+jobs:
+  build:
+    runs-on: EV-Runner-linux-x64-4-core-16gb-01 #ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Create Maven settings.xml
+        run: |
+          mkdir -p $HOME/.m2
+          cat <<EOF > $HOME/.m2/settings.xml
+          <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+            <mirrors>
+              <!-- Allow HTTP repositories in devnexus -->
+              <mirror>
+                <id>maven-default-http-blocker</id>
+                <mirrorOf>*</mirrorOf>
+                <url>http://devnexusrepo.echoman.com:8080/repository/echo-maven-public</url>
+                <blocked>false</blocked>
+              </mirror>
+              <!-- Allow HTTP repository 2 -->
+               <mirror>
+                <id>maven-default-http-blocker</id>
+                <mirrorOf>*</mirrorOf>
+                <url>http://netbeans.apidesign.org/maven2/</url>
+                <blocked>false</blocked>
+              </mirror>
+              <!-- Allow HTTP repository 3 -->
+               <mirror>
+                <id>maven-default-http-blocker</id>
+                <mirrorOf>*</mirrorOf>
+                <url>http://mvnrepository.com/artifact/org.netbeans.modules/org.netbeans.api</url>
+                <blocked>false</blocked>
+              </mirror>
+              <!-- Allow HTTP repository 4 -->
+               <mirror>
+                <id>maven-default-http-blocker</id>
+                <mirrorOf>*</mirrorOf>
+                <url>http://mvnrepository.com/artifact/org.netbeans.modules/org.netbeans.modules</url>
+                <blocked>false</blocked>
+              </mirror>
+               <!-- Allow HTTP repository 5 -->
+               <mirror>
+                <id>maven-default-http-blocker</id>
+                <mirrorOf>*</mirrorOf>
+                <url>http://bits.netbeans.org/maven2/</url>
+                <blocked>false</blocked>
+              </mirror>
+               <!-- Allow HTTP repository 5 -->
+               <mirror>
+                <id>maven-default-http-blocker</id>
+                <mirrorOf>*</mirrorOf>
+                <url>http://repo1.maven.org/maven2/</url>
+                <blocked>false</blocked>
+              </mirror>
+            </mirrors>
+          </settings>
+          EOF
+      - name: Install Maven 3.6.0
+        run: |
+          wget https://repo1.maven.org/maven2/org/apache/maven/apache-maven/3.6.0/apache-maven-3.6.0-bin.tar.gz -O /tmp/maven.tar.gz
+          sudo mkdir -p /opt/maven
+          sudo tar -xzf /tmp/maven.tar.gz -C /opt/maven --strip-components=1
+          rm -f /tmp/maven.tar.gz
+          echo "MAVEN_HOME=/opt/maven" >> $GITHUB_ENV
+          echo "PATH=$MAVEN_HOME/bin:$PATH" >> $GITHUB_ENV
+
+      - name: Cache Maven Dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.m2/repository
+          key: maven-${{ runner.os }}-${{ hashFiles('**/pom.xml') }}
+          restore-keys: maven-${{ runner.os }}-    
+
+      - name: Maven version
+        run: mvn -v   
+      - name: Verify JDK and Maven Versions
+        run: |
+          echo "Java Version:"
+          java -version
+          echo "Maven Version:"
+          mvn -version  
+      - name: Build with Maven
+        run: mvn -s $HOME/.m2/settings.xml -B -U clean install --file pom.xml
